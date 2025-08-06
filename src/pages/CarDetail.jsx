@@ -462,7 +462,7 @@ const CarDetail = () => {
                         Total Amount:
                       </span>
                       <span className="text-xl font-bold text-blue-600">
-                        ${totalAmount}
+                        {totalAmount}
                       </span>
                     </div>
                   </div>

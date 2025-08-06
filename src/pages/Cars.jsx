@@ -207,12 +207,12 @@ const Cars= () => {
                           className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                         >
                           <option value="">All Locations</option>
-                          <option value="New York">New York</option>
-                          <option value="Los Angeles">Los Angeles</option>
-                          <option value="Chicago">Chicago</option>
-                          <option value="Houston">Houston</option>
-                          <option value="Miami">Miami</option>
-                          <option value="Seattle">Seattle</option>
+                          <option value="New York">Bhubaneswar</option>
+                          <option value="Los Angeles">Cuttack</option>
+                          <option value="Chicago">Bhadrak</option>
+                          <option value="Houston">Balasore</option>
+                          <option value="Miami">Baripada</option>
+                          <option value="Seattle">Jharsuguda</option>
                         </select>
                       </div>
 

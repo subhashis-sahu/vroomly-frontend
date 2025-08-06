@@ -172,30 +172,30 @@ const Home = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Emma Rodriguez",
-      location: "Barcelona, Spain",
+      name: "Demo",
+      location: "Demo",
       quote:
         "Amazing service! The car was in perfect condition and the pickup process was seamless.",
       avatar:
-        "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=60&h=60&fit=crop&crop=face",
+        "",
     },
     {
       id: 2,
-      name: "John Smith",
-      location: "New York, USA",
+      name: "Demo sahu",
+      location: "Demo",
       quote:
         "Great experience with CarRental. Will definitely use their service again!",
       avatar:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face",
+        "",
     },
     {
       id: 3,
-      name: "Ava Johnson",
-      location: "Sydney, Australia",
+      name: "Demo",
+      location: "Demo",
       quote:
         "Professional service and excellent customer support. Highly recommended!",
       avatar:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=60&h=60&fit=crop&crop=face",
+        "",
     },
   ];
 
@@ -213,7 +213,7 @@ const Home = () => {
           >
             <img
               src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=1920&h=1080&fit=crop"
-              alt="Luxury Car Background"
+              alt="Quick Rent"
               className="w-full h-full object-cover"
             />
             {/* Dark Overlay */}
@@ -223,14 +223,14 @@ const Home = () => {
           {/* Content */}
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div
-              className={`text-center mb-12 transition-all duration-1000 ease-out ${
+              className={`text-center mb-10 transition-all duration-1000 ease-out ${
                 animateHero
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 translate-y-8"
               }`}
             >
               <h1 className="text-5xl font-bold text-white mb-6">
-                Luxury cars on Rent
+               Book Your Ride in Seconds!
               </h1>
 
               {/* Search Form */}
@@ -366,7 +366,7 @@ const Home = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {featuredCars.map((car, index) => (
                 <div
                   key={car.id}
