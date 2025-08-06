@@ -462,29 +462,8 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Do You Own a Luxury Car Section */}
-        <section className="py-20 bg-gradient-to-r from-black to-neutral-900">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div className="text-white">
-                <h2 className="text-4xl font-bold mb-6">
-                  Do You Own a Luxury Car?
-                </h2>
-                <p className="text-xl mb-8 text-blue-100">
-                  Monetize your vehicle effortlessly by listing it on CarRental.
-                  We take care of insurance, driver verification and secure
-                  payments — so you can earn passive income, stress-free.
-                </p>
-                <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-                  List your car
-                </button>
-              </div>
-              <div className="flex justify-center">
-                <img src="" alt="BMW Car" className="rounded-lg shadow-2xl" />
-              </div>
-            </div>
-          </div>
-        </section>
+        
+        
 
         {/* Testimonials Section */}
         <section className="py-20 bg-gray-50">
