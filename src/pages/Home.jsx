@@ -202,26 +202,21 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
-      <div className="pt-16">
+      <div className="">
         {/* Hero Section */}
-        <section className="relative py-32 overflow-hidden min-h-screen">
+        <section className="relative flex justify-center py-32 overflow-hidden min-h-screen">
           {/* Background Image */}
           <div
             className={`absolute inset-0 transition-all duration-1000 ease-out ${
               animateHero ? "opacity-100 scale-100" : "opacity-0 scale-110"
             }`}
           >
-            <img
-              src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=1920&h=1080&fit=crop"
-              alt="Quick Rent"
-              className="w-full h-full object-cover"
-            />
             {/* Dark Overlay */}
-            <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+            {/* <div className="absolute inset-0 bg-black bg-opacity-50"></div> */}
           </div>
 
           {/* Content */}
-          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="absolute bottom-0 flex justify-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full h-50">
             <div
               className={`text-center mb-10 transition-all duration-1000 ease-out ${
                 animateHero
@@ -229,7 +224,7 @@ const Home = () => {
                   : "opacity-0 translate-y-8"
               }`}
             >
-              <h1 className="text-5xl font-bold text-white mb-6">
+              <h1 className="text-5xl font-bold text-black mb-6">
                Book Your Ride in Seconds!
               </h1>
 
@@ -366,7 +361,7 @@ const Home = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-4 gap-4">
               {featuredCars.map((car, index) => (
                 <div
                   key={car.id}
@@ -455,7 +450,9 @@ const Home = () => {
             </div>
 
             <div className="text-center mt-12">
-              <button className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-lg hover:bg-blue-600 hover:text-white transition-colors">
+              <button 
+              className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-lg hover:bg-blue-600 hover:text-white transition-colors"
+              onClick={() => navigate("/Cars")}>
                 Explore all cars →
               </button>
             </div>

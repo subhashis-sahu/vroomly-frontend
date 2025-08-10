@@ -72,8 +72,10 @@ const Navbar = () => {
   }, [showProfileDropdown]);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm border-b border-gray-100">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className="top-0 left-0 right-0 z-50 flex justify-center align-content-center">
+      <div className="top-0 sm:top-2 md:top-4 z-40 fixed  w-full sm:w-[90%] md:w-5/6 bg-[#FFFFFF] 
+      shadow border-[1px] border-zinc-200 dark:border-zinc-800 dark:bg-[#FFFFFF] px-4 py-2 
+      sm:rounded-lg font-dmSans">
         <div className="flex items-center justify-between h-16">
           {/* Left Side - Navigation Links */}
           <div className="hidden md:flex items-center space-x-8">

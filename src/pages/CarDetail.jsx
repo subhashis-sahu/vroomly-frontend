@@ -212,7 +212,7 @@ const CarDetail = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Navbar />
-      <div className="pt-16">
+      <div className="pt-20">
 
       {/* Back Button */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
@@ -391,7 +391,7 @@ const CarDetail = () => {
             <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-8 sticky top-8">
               <div className="text-center mb-6">
                 <div className="text-3xl font-bold text-gray-900 mb-2">
-                  ${car.price} per day
+                  {car.price} per day
                 </div>
               </div>
 
